@@ -128,7 +128,6 @@ function modSection(element, list) {
     let subList = list.filter(product => elementClassName.includes(translatedCategory[product.category]));
     let subListElements = subList.map(product => createProductCard(product))
     appendChildren(subListElements, ul);
-    console.log(ul)
     element.appendChild(ul);
     return "Modificado com sucesso";
 }
