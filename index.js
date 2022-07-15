@@ -1,3 +1,6 @@
+let fruits = document.querySelector(".fruits");
+let drinks = document.querySelector(".drinks");
+let hygiene = document.querySelector(".hygiene");
 function appendChildren(childrenElements, parentElement) {
     childrenElements.forEach(child => parentElement.appendChild(child));
     return "parentElement foi atualizado com sucesso";
